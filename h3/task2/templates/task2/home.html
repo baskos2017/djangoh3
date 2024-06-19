@@ -1,0 +1,18 @@
+<!-- starwars/templates/starwars/home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Universe</title>
+</head>
+<body>
+    <h1>Ласкаво просимо до всесвіту зоряних воєн!</h1>
+    <p>Виберіть сторінку:</p>
+    <ul>
+        <li><a href="{% url 'luke-view' %}">Люк</a></li>
+        <li><a href="{% url 'leia-view' %}">Лея</a></li>
+        <li><a href="{% url 'han-view' %}">Хан</a></li>
+    </ul>
+</body>
+</html>
